@@ -1,0 +1,11 @@
+<div class="TvMovies">
+    <h2 class="title">Tv Movies</h2>
+<div class="wrapper">
+    <div class="wrapper-fit">
+     <div class="boxes" *ngFor="let i of tvmovies" >
+         <img src={{base+i.poster_path}} alt={{i.title}} class="picture">   
+     </div>
+    </div>
+ </div>
+ 
+</div>

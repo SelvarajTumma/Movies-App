@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.wrapper-fit{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.boxes{
+    margin-right: 15px;
+    margin-top: 17px;
+    border: yellow;
+}
+.picture{
+    width: 420px;
+    height: 550px;
+    border-radius: 23px;
+    transition: transform 450ms;
+}
+.picture:hover{
+    transform: scale(1.05);
+}
+.title{
+    color:white;
+    text-align: center center;
+}
+.content{
+    text-align: center;
+}
+.Trending{
+    margin-top: 30px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn1{
+    float: left;
+}
+.btn2{
+    float: right;
+}

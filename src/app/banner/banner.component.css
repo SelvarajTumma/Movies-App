@@ -1,0 +1,36 @@
+*{
+    background-color: #111;
+}
+.banner_image{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.banner{
+    height: 780px;
+    display: flex;
+    background-size: center center;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.banner_image{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.backdrop{
+    border-radius: 20px;
+}
+.banner_contents{
+    margin-right: 20px;
+    /*border: 5px solid red;*/
+    width: 100%;
+    height: 750px;
+    color: white;
+    object-fit: contain;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.content{
+    margin-top: 20px;
+}
